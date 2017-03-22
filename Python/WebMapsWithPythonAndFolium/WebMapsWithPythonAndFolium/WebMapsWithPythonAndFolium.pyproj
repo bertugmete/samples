@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>cc1575b7-fe03-4f2e-a6ea-0ed1441948c9</ProjectGuid>
+    <ProjectGuid>6dd47573-95ec-4b5d-aace-ab1d21eb420a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Inplace.py</StartupFile>
+    <StartupFile>WebMapsWithPythonAndFolium.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Pandas</Name>
-    <RootNamespace>Pandas</RootNamespace>
+    <Name>WebMapsWithPythonAndFolium</Name>
+    <RootNamespace>WebMapsWithPythonAndFolium</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,41 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AxisParameter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ChangeDataType.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DataFrame.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Explore.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Filter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GroupBy.py" />
-    <Compile Include="Indexing.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Inplace.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MissingValue.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Pandas.py" />
-    <Compile Include="SelectMultipleRowsAndColumns.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="StringMethods.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="deneme.txt" />
+    <Compile Include="WebMapsWithPythonAndFolium.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
