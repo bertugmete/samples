@@ -1,4 +1,4 @@
-import time
+﻿import time
 from datetime import datetime as dt
 
 hosts_temp=r"C:\Repos\bertugmete.git\samples\Python\WebsiteBlockerApp\WebsiteBlockerApp\hosts"
