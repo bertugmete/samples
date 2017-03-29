@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>cc1575b7-fe03-4f2e-a6ea-0ed1441948c9</ProjectGuid>
+    <ProjectGuid>2770284b-5d2b-4da2-90c2-8313eb6e4894</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Inplace.py</StartupFile>
+    <StartupFile>Main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Pandas</Name>
-    <RootNamespace>Pandas</RootNamespace>
+    <Name>NameSurnameValidations</Name>
+    <RootNamespace>NameSurnameValidations</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,44 +22,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AxisParameter.py">
+    <Compile Include="CharCount.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ChangeDataType.py">
+    <Compile Include="Main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DataFrame.py">
+    <Compile Include="MultipleBlank.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Duplicate.py">
+    <Compile Include="PunctuationsMarks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Explore.py">
+    <Compile Include="RepeatedChars.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Filter.py">
+    <Compile Include="UpperFirstLetter.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GroupBy.py" />
-    <Compile Include="Indexing.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Inplace.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MissingValue.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Pandas.py" />
-    <Compile Include="SelectMultipleRowsAndColumns.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="StringMethods.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="deneme.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
